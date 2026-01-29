@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -0
 
 # Store the AWS account ID in a variable
 aws_account_id=$(aws sts get-caller-identity --query 'Account' --output text)
